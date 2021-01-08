@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
 
 
 spec.name         = "CGCustomDateChooseTools"
-spec.version      = "0.0.2"
+spec.version      = "0.0.1"
 spec.summary      = "自定义时间选择器，默认不能选择今天以后的日期"
 
 # This description is used to generate tags and improve search results.
