@@ -10,8 +10,8 @@
 #define UIScreenHeight  [UIScreen mainScreen].bounds.size.height
 
 #import "ViewController.h"
-#import "KHConsultScreenView.h"
-#import "NSDateFormatter+BAKit.h"
+#import <KHConsultScreenView.h>
+#import <NSDateFormatter+BAKit.h>
 
 @interface ViewController ()
 
@@ -27,9 +27,9 @@
 - (IBAction)chooseYearAndMonthAction:(UIButton *)sender {
 
 ///主动设置类型及标题
-//    KHConsultScreenView *alertView = [[KHConsultScreenView alloc] initWithTimeType:KHConsultScreenTimeType_YMD andTitleStr:@"选中日期"];
+    KHConsultScreenView *alertView = [[KHConsultScreenView alloc] initWithTimeType:KHConsultScreenTimeType_YM andTitleStr:@"选中日期"];
     ///默认选择年月日
-    KHConsultScreenView *alertView = [[KHConsultScreenView alloc] init];
+//    KHConsultScreenView *alertView = [[KHConsultScreenView alloc] init];
 
     NSDateFormatter *fmt = [NSDateFormatter ba_setupDateFormatterWithYMD];
     alertView.cusMinYearDate = [fmt dateFromString:@"2010-06-05"];
