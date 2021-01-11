@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3910CD0733B3DA4DD27E92CA /* Pods_CGCustomDateChooseDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE123B9AA8F6A079F83800F /* Pods_CGCustomDateChooseDemo.framework */; };
+		E849A95825ABE74F00DE7B1B /* KHConsultScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E849A95125ABE74F00DE7B1B /* KHConsultScreenView.xib */; };
+		E849A95925ABE74F00DE7B1B /* NSDateFormatter+BAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E849A95225ABE74F00DE7B1B /* NSDateFormatter+BAKit.m */; };
+		E849A95A25ABE74F00DE7B1B /* NSDate+BAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E849A95425ABE74F00DE7B1B /* NSDate+BAKit.m */; };
+		E849A95B25ABE74F00DE7B1B /* KHConsultScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = E849A95525ABE74F00DE7B1B /* KHConsultScreenView.m */; };
 		E8779B1F25A6D7D6001FB682 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8779B1E25A6D7D6001FB682 /* AppDelegate.m */; };
 		E8779B2525A6D7D6001FB682 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8779B2425A6D7D6001FB682 /* ViewController.m */; };
 		E8779B2825A6D7D6001FB682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8779B2625A6D7D6001FB682 /* Main.storyboard */; };
@@ -18,6 +22,13 @@
 
 /* Begin PBXFileReference section */
 		17C931B4C426A993AF19CE93 /* Pods-CGCustomDateChooseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGCustomDateChooseDemo.debug.xcconfig"; path = "Target Support Files/Pods-CGCustomDateChooseDemo/Pods-CGCustomDateChooseDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E849A95125ABE74F00DE7B1B /* KHConsultScreenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KHConsultScreenView.xib; sourceTree = "<group>"; };
+		E849A95225ABE74F00DE7B1B /* NSDateFormatter+BAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+BAKit.m"; sourceTree = "<group>"; };
+		E849A95325ABE74F00DE7B1B /* KHConsultScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHConsultScreenView.h; sourceTree = "<group>"; };
+		E849A95425ABE74F00DE7B1B /* NSDate+BAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BAKit.m"; sourceTree = "<group>"; };
+		E849A95525ABE74F00DE7B1B /* KHConsultScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHConsultScreenView.m; sourceTree = "<group>"; };
+		E849A95625ABE74F00DE7B1B /* NSDateFormatter+BAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+BAKit.h"; sourceTree = "<group>"; };
+		E849A95725ABE74F00DE7B1B /* NSDate+BAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BAKit.h"; sourceTree = "<group>"; };
 		E8779B1A25A6D7D6001FB682 /* CGCustomDateChooseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGCustomDateChooseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8779B1D25A6D7D6001FB682 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8779B1E25A6D7D6001FB682 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +73,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E849A95025ABE74F00DE7B1B /* CGCusDateChooseTools */ = {
+			isa = PBXGroup;
+			children = (
+				E849A95325ABE74F00DE7B1B /* KHConsultScreenView.h */,
+				E849A95525ABE74F00DE7B1B /* KHConsultScreenView.m */,
+				E849A95125ABE74F00DE7B1B /* KHConsultScreenView.xib */,
+				E849A95725ABE74F00DE7B1B /* NSDate+BAKit.h */,
+				E849A95425ABE74F00DE7B1B /* NSDate+BAKit.m */,
+				E849A95625ABE74F00DE7B1B /* NSDateFormatter+BAKit.h */,
+				E849A95225ABE74F00DE7B1B /* NSDateFormatter+BAKit.m */,
+			);
+			name = CGCusDateChooseTools;
+			path = ../../../CGCusDateChooseTools;
+			sourceTree = "<group>";
+		};
 		E8779B1125A6D7D6001FB682 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +113,7 @@
 				E8779B1E25A6D7D6001FB682 /* AppDelegate.m */,
 				E8779B2325A6D7D6001FB682 /* ViewController.h */,
 				E8779B2425A6D7D6001FB682 /* ViewController.m */,
+				E849A95025ABE74F00DE7B1B /* CGCusDateChooseTools */,
 				E8779B2625A6D7D6001FB682 /* Main.storyboard */,
 				E8779B2925A6D7D7001FB682 /* Assets.xcassets */,
 				E8779B2B25A6D7D7001FB682 /* LaunchScreen.storyboard */,
@@ -157,6 +184,7 @@
 			files = (
 				E8779B2D25A6D7D7001FB682 /* LaunchScreen.storyboard in Resources */,
 				E8779B2A25A6D7D7001FB682 /* Assets.xcassets in Resources */,
+				E849A95825ABE74F00DE7B1B /* KHConsultScreenView.xib in Resources */,
 				E8779B2825A6D7D6001FB682 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +241,9 @@
 				E8779B2525A6D7D6001FB682 /* ViewController.m in Sources */,
 				E8779B1F25A6D7D6001FB682 /* AppDelegate.m in Sources */,
 				E8779B3025A6D7D7001FB682 /* main.m in Sources */,
+				E849A95925ABE74F00DE7B1B /* NSDateFormatter+BAKit.m in Sources */,
+				E849A95B25ABE74F00DE7B1B /* KHConsultScreenView.m in Sources */,
+				E849A95A25ABE74F00DE7B1B /* NSDate+BAKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

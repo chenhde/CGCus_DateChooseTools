@@ -11,6 +11,5 @@ target 'CGCustomDateChooseDemo' do
   pod 'Masonry'
   pod 'TYAlertController'
 
-  pod 'CGCusDateChooseTools'
 
 end
